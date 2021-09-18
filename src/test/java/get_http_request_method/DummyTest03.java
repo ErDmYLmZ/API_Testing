@@ -22,7 +22,6 @@ import static org.hamcrest.Matchers.hasItems;
      */
 
 public class DummyTest03 extends Restapiexample {
-
     @Test
     public void dummyTest03() {
         spec.pathParams("first", "api", "second", "v1", "third", "employees");

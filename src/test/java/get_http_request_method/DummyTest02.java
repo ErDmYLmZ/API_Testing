@@ -26,7 +26,7 @@ public class DummyTest02 extends Restapiexample {
            "profile_image": ""
        },
     */
-    @Test
+   @Test
     public void dummytest02(){
 
         spec.pathParams("first", "api", "second", "v1", "third", "employees");

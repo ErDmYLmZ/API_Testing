@@ -4,7 +4,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class HerOkuAppBaseUrl {
+public class HerOkuAppBaseUrl{
 
     //Create an object in RequestSpecification data type
     protected RequestSpecification spec;

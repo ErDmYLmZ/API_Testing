@@ -8,7 +8,7 @@ public class JsonPlaceHolderBaseUrl {
 
     protected RequestSpecification spec ;
 
-    @Before
+   @Before
     public void setUp(){
         spec = (RequestSpecification) new RequestSpecBuilder().setBaseUri("https://jsonplaceholder.typicode.com").build();
 

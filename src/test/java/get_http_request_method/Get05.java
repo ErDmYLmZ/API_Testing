@@ -16,6 +16,7 @@ public class Get05 extends HerOkuAppBaseUrl {
 	  	And
 	  		Among the data there should be someone whose firstname is "Mary" and last name is "Ericsson"
      */
+
     @Test
     public void get05(){
 
