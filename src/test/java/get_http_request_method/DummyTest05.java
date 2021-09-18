@@ -17,6 +17,7 @@ public class DummyTest05 extends JsonPlaceHolderBaseUrl {
         And "numquam repellendus a magnam" should be one of the todos
         And 194, 192, and 186 should be among the ids
      */
+
     @Test
     public void test05(){
         spec.pathParams("first", "todos");

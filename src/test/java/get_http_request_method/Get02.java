@@ -25,6 +25,7 @@ public class Get02 extends HerOkuAppBaseUrl {
             Server is "Cowboy"
      */
     //Note: Path Parameters are used to make resource smaller
+
     @Test
     public void get02(){
 

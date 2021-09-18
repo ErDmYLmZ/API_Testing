@@ -30,9 +30,7 @@ public class DummyTest04 extends Restapiexample {
             "message": "Successfully! Record has been fetched."
 }
      */
-
-
-        @Test
+     @Test
         public void dummyTest04() {
             spec.pathParams("first", "api", "second","v1","third", "employee", "final", "9");
             Response response = given().spec(spec).when().get("/{first}/{second}/{third}/{final}");

@@ -32,6 +32,7 @@ public class Get06 extends HerOkuAppBaseUrl {
                                   "checkout":"2019-07-02" }
             }
      */
+
     @Test
     public void get06(){
 
